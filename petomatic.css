@@ -1,0 +1,75 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  font-family: gotham;
+  /*font-size: 14px;*/
+}
+.main-body, .loginPage, .registerPage{
+  text-align: center;
+  width: 100%;
+  padding-top: 85px;
+  position: static;
+}
+.imageUpload{
+  text-align: center;
+  align-content: center;
+  padding: 10px;
+}
+img{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.imagesDisplay{
+  text-align: center;
+}
+.header a{
+  float: left;
+  height: 35px;
+  color:white;
+  margin: 22px 20px;
+  font-size: 20px;
+  text-decoration: none;
+  -webkit-transition-duration: 0.55s; /* for use on Safari */
+  transition-duration: 0.55s;
+}
+.header a:hover{
+  color:black;
+}
+.header{
+  background-color: #48c1ea;
+  height: 65px;
+  position: fixed;
+  width: 100%;
+}
+input[type="text"], input[type="password"], input[type="email"]{
+  height: 32px;
+  width: 200px;
+  font-size: 15px;
+  -webkit-border-radius: 11px; /* rounds out the corners */
+  border-radius: 11px; /* rounds out the corners */
+}
+label{
+  text-align: left;
+}
+input{
+  text-align: center;
+  outline: none;
+}
+input[type="button"], input[type="submit"]{
+  color: white;
+  font-size: 13px;
+  padding:5px 15px;
+  background:#48c1ea;
+  -webkit-border-radius: 11px; /* rounds out the corners */
+  border-radius: 11px; /* rounds out the corners */
+  -webkit-transition-duration: 0.45s; /* for use on Safari */
+  transition-duration: 0.45s;
+}
+input[type="button"]:hover, input[type="submit"]:hover {
+  color:black;
+}
+.pageHeader{
+  font-size:28px;
+}
